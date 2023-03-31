@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Backgroumd tab</title>
+</head>
+
+<style>
+    .image1 {
+        background-color: black;
+        background-image: url('./image/landshape.jpg');
+        background-size: cover;
+    }
+
+    .image1>p {
+        color: red;
+    }
+
+    .image2 {
+        background-image: url('./image/pimage.jpg');
+        background-repeat: round;
+    }
+
+    .attachment {
+        Background-image: url('./image/palace.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    .position {
+        background-image: url('./image/pimage.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .size {
+        background-color: black;
+        background-image: url('./image/landshape.jpg');
+        background-size: contain;
+    }
+	.nice{
+	    background-color: black;
+        background-image: url('./image/landshape.jpg');
+		height:300px;
+		width:300px;
+	}
+</style>
+
+<body>
+    <div>
+        <h1 style="background-color:red ;text-align:center"> Backgroumd </h1>
+
+        <!-- Background  properties -->
+        <div>
+            <h1>1) Background-color</h1>
+            <ol>
+                <li>color</li>
+                <li>HEX</li>
+                <li>RGB</li>
+                <li>RGBA</li>
+            </ol>
+            <h1>2) Background-image</h1>
+
+            <h1>3) Background-repeat</h1>
+            <ol>
+                <li>repeat-default value</li>
+                <li>repeat-X</li>
+                <p> It can take only in vertical</p>
+                <li>repeat-Y</li>
+                <p> It can take only in horizontal</p>
+                <li>no-repeat</li>
+                <li>space</li>
+                <li>round</li>
+            </ol>
+
+            <h1>4) Background-attachment</h1>
+            <ol>
+                <p>Values </p>
+                <li>Scroll- default value</li>
+                <p> The background-image are move-able</p>
+                <li>fixed</li>
+                <p> The background-image are not move-able<br>
+                    It can be fixed</p>
+            </ol>
+
+            <h1>5) Background-position</h1>
+            <ol>
+                <li>left</li>
+                <li>right</li>
+                <li>center</li>
+                <li>top left</li>
+                <li>top right </li>
+                <li>top center</li>
+                <li>button left </li>
+                <li>button right</li>
+                <li>button center</li>
+
+            </ol>
+            <h1>6) Background-size</h1>
+            <ol>
+                <li>auto </li>
+                <p> Auto is a default</p>
+                <li>cover </li>
+                <p> Cover can assign the image (width and height) whole display size</p>
+                <li>contain </li>
+                <p> contain take the image original size(height and width)</p>
+                <li>height </li>
+                <li> width</li>
+            </ol>
+
+        </div>
+        <hr>
+		<hr>
+        <div>
+
+            <h1 style="background-color:red ;text-align:center">3) bckgroumd-repeat:</h1>
+
+        </div>
+
+        <div class="image1">
+            <p style="color:black; font-size:50px; border:5px solid" ;> <b>background-size:cover</b> (is applied) </p>
+            <p> jeeva </p>
+            <p> jeeva </p>
+            <p> jeeva </p>
+            <p> jeeva </p>
+            <p> jeeva </p>
+        </div>
+        <br>
+
+        <div class="image2">
+
+            <p style="color:black; font-size:50px; border:5px solid" ;> potrite with repeat</p>
+            <p> potrite</p>
+            <p> potrite</p>
+            <p> potrite</p>
+            <p> potrite</p>
+            <p> potrite</p>
+            <p> potrite</p>
+            <p> potrite</p>
+            <p> potrite</p>
+            <p> potrite</p>
+            <p> potrite</p>
+            <p> potrite</p>
+            <p> potrite</p>
+            <p> potrite</p>
+            <p> potrite</p>
+            <p> potrite</p>
+            <p> potrite</p>
+            <p> potrite</p>
+            <p> potrite</p>
+            <p> potrite</p>
+            <p> potrite</p>
+            <p> potrite</p>
+            <p> potrite</p>
+            <p> potrite</p>
+            <p> potrite</p>
+            <p> potrite</p>
+            <p> potrite</p>
+            <p> potrite</p>
+            <p> potrite</p>
+        </div>
+
+        <!-- Background-attachment: -->
+        <div>
+            <h1 style="background-color:red ;text-align:center">4) Background-attachment:</h1>
+
+            <!-- background-image:fixed -->
+            <div class="attachment">
+                <p style="color:black; font-size:50px; border:5px solid" ;> background-image:fixed<br>
+                    1) The background-image are not move-able,<br>
+                    2) image can be fixed</p>
+                <p> image </p>
+                <p> image </p>
+                <p> image </p>
+                <p> image </p>
+                <p> image </p>
+                <p> image </p>
+                <p> image </p>
+                <p> image </p>
+                <p> image </p>
+                <p> image </p>
+                <p> image </p>
+                <p> image </p>
+
+            </div>
+        </div>
+
+        <!-- backgroumd-position: -->
+        <div class="position">
+            <h1 style="background-color:red ;text-align:center">5) backgroumd-position:</h1>
+            <p style="color:green; font-size:30px"><b>backgroumd-position:center</b> </p>
+            <p> image </p>
+            <p> image </p>
+            <p> image </p>
+            <p> image </p>
+            <p> image </p>
+            <p> image </p>
+        </div>
+
+        <!-- background-size: -->
+        <div class="size">
+            <h1 style="background-color:red ;text-align:center">6) background-size:</h1>
+
+            <p> contain</p>
+            <p> contain</p>
+            <p> contain</p>
+            <p> contain</p>
+            <p> contain</p>
+            <p> contain</p>
+            <p> contain</p>
+        </div>
+        <hr>
+		
+		<!-- applied height and width only  -->
+		<h1> In below the image applied height and width only width-out apply any content,</h1>
+		<h1> orelse we can apply viewport (height and width)</h1>
+		<div class="nice">
+		
+		</div>
+</body>
+
+</html>
